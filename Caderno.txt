@@ -1,0 +1,1021 @@
+##############################################################
+                        Capitulo 1
+##############################################################
+
+========================== Aula 4 ============================
+
+A internet surgiu na guérra fria, quando o EUA se sentiu amee-
+çado pelo lançamento de Sputinik pela União Soviética. 
+
+Os EUA com medo de ter seus dados ameaçados, crirou uma pequena
+rede chamada ARPANET. E para que os computadores pudessem se 
+comunicar, foi criado o protocolo NCP.
+
+Com a expansão da rede, o procolo NCP ficou inviável, então 
+Bob Kahn criou o procoloco TCP, e para suprir o problema de 
+idenficação, Vint Cerf criou o IP.
+
+O exercícito não queria mais administrar a rede, e logo a 
+mesma se didiviu em outras redes menores. Porém todas as redes
+tirando a rede do exercícito (MILNET), queriam manter suas co-
+municações, dando inicio a uma nova rede única chamada de 
+Interconnect Networking, que foi abreveada para Internetworking,
+e hoje é chamada de Internet.
+
+Logo a internet se espalhou por todo o mundo através de cabos 
+submarinos.
+
+O client era uma tela preta com pequenas letras verdes, recebi-
+das do servidor através do protocolo GOPHER.
+
+Em 1993, Tim Berners-Lee criou o protocolo até hoje utilizado 
+HTTP (Hyper Text Transfer Protocol) ou seja, transferência de 
+hiper texto. E junto com ela, foi criada a linguagem de marcação 
+HTML (hyper text markup language).
+
+Tim, também criou a sub rede World wide web (rede de alcance 
+mundial). Onde servidores especializados em http trabalham.
+
+
+##############################################################
+                        Capitulo 2
+##############################################################
+
+========================== Aula 1 ============================
+
+A representação de dados no computador é em forma binária, ou
+seja 1 0 que são bits (são sinais elétricos). A cada 8 bits, 
+ocorre a formação de um byte que representa de fato uma letra
+ou número de acordo com o código UTF-8. 
+
+Esses sinais elétricos chegam em forma de quadrados
+
+Também existem os multiplos de byte:
+
+1024 bytes = 1 Kilo byte
+1024 KByte = 1 Mega byte
+1024 MByte = 1 Giga byte
+1024 Gbyte = 1 Tera byte
+         etc.
+
+Vale lembrar que os bytes devem ser represetandos com B 
+maiúsculo, do contrário será intrepretado como bit.
+
+A conexão com a internet entre um cliente e um servidor se da
+através de uma conexão com o Modem, que se conecta com uma rede
+de telefonica ou de TV. O modem tem a função de modular e desmo-
+dular as ondas dos sinais elétricos.
+
+Toda máquina conectada na internet, tem um IP de idenficação.
+Logo ao cliente pesquisa pelo domínio do site que deseja acessar,
+exemplo:
+
+        www.google.com
+
+Logo esse domínio vai para o DNS, que serve com uma agenda. O DNS
+pesquisará qual o IP deste dominínio para o modem realizar a 
+conexão.
+
+
+========================== Aula 2 ============================
+
+
+Para disponibilizar um site criado, o desenvolvedor deve HOSPEDAR
+o site em um servidor, nisso ele terá de escolher um domínio pa-
+gando por valor anual, e pagando um valor mensal para hospeda-lo.
+
+Domínio é sempre de nome único, vários TLDs.
+
+O que é URL?
+
+    URL é o endereço completo de um site, exemplo:
+
+    www.facebook.com.br/caio
+
+    www      = subdomínio
+    facebook = domínio
+    .com     = TDL
+    .br      = CCTLD
+    /caio    = caminho
+
+
+##############################################################
+                        Capitulo 3
+##############################################################
+
+========================== Aula 1 ============================
+
+HTML e CSS
+
+        HTML:
+        
+                HTML ou Hypertext Markup Language, é uma
+                linguagem de conteúdo.
+                O HTML é uma linguagem de conteúdo. Logo, 
+                todo o conteúdo da página é informado no 
+                HTML, vídeos, fotos, textos, etc...
+
+                O HTML se utliza de tags para marcar o texto.
+                Ex:
+
+                <h1> texto </h2> 
+
+                <h1> = abertura de tag
+                texto = conteúdo
+                </h1> = Fechamento de tag.
+
+                Ex:
+
+                <img src="foto.png">
+
+                <img = abertura de tag
+                src = parâmetro
+                foto.png = valor
+                
+                A maioria das tags tem abertura e fechamento.
+
+                Estrutura básica:
+
+                <!DOCTYPE html>
+                <html lang="pt-BR">
+                        <head>
+                                <meta charset="UTF-8">
+                                <meta name="viewport"
+                                content="width=device-width,
+                                initial-scale=1.0">
+                        </head>
+                        <body>
+                                <h1> OLá mundo </h1>
+                        </body>
+                </html>
+
+
+        CSS:
+                Cascading Style Sheets, são folhas de estilo
+                em cascata.
+                O CSS é a linguagem de estilo. Logo, todo
+                estilo da página é descriminado pelo CSS, 
+                cores, fundos, fontes, etc...
+
+                O css, escolhe uma tag e o estiliza. Ex:
+
+                h1 {
+                    font: normal;
+                }
+
+                h1 = seletor
+                font: normal = declaração
+                font: =  propriedade
+                normal = valor
+
+        Quando se tenta abrir um site, o client solicita o HTML
+        e o CSS para o servidor, e que os envia. O navegador do 
+        client traduz as linguagens e os transforma na página do
+        site.
+
+
+
+========================== Aula 2 ============================
+
+
+Front-End e Back-End
+
+
+        Front-end:
+
+        São linguagens e tecnologias que funcionam do lado do
+        cliente. (client-side) 
+        São elas: HTML, CSS e Javascript.
+
+
+        Back-end:
+
+        São linguagens e tecnolgogias que funcionam do lado do
+        servidor. (server-side)
+        São elas: Node, Bancos de dados, e APIs.
+
+        Full-Stack:
+
+        É o desenvolvedor que é capacitado tanto em server-side
+        quanto em client-side
+
+
+##############################################################
+                        Capitulo 4
+##############################################################
+
+========================== Aula 2 ============================
+
+Estrutura básica HTML 5
+
+Digite o comando:
+
+html:5 ou ! e pressione ENTER 
+
+1 - Configure a linguagem de "en" para "pt-BR"
+
+2 - Verifique se a codificação da linguagem está em UTF-8
+
+3 - Confirme na tag Meta, se o conteúdo será apresentando em 100% do body
+
+4 - Configure um título da página, que será apresentado na aba.
+
+Tags básicas usadas:
+
+        <h1>
+                Tag de título.
+        <p> 
+                Tag de parágrafo
+        <hr> 
+                Linha horizontal
+
+
+
+##############################################################
+                        Capitulo 5
+##############################################################
+
+========================== Aula 1 ============================
+
+
+
+A formtação em documentos HTML é feita interamente pelas marcações
+e tags.
+
+Se quiser apresentar uma tag dentro de um texto da página é 
+necessário substituir os sinais de maior e menor por:
+
+< = &lt;
+
+< = &gt;
+
+ex:
+
+        LT = LESS THAN 
+        GT = GREATER THAN
+
+        &lt;p&gt; = <p>
+
+Símbolos:
+
+        &reg;
+        &copy;
+        &trade;
+        &euro;
+        &pound;
+        &yen;
+        &cent;
+        &Delta;
+        &uparrow;
+
+Emojis:
+
+Acesse pelo google: emojipedia
+
+Escolha o emoji, selecione o código, e digite no html:
+
+&#x + código + ;
+
+
+Tags básicas usadas:
+
+        <br>
+                Tag utilizada para quebrar linhas.
+
+        Nâo utilize várias tags BR em sequência, para espaços
+        maiores, use o CSS.
+
+
+
+##############################################################
+                        Capitulo 6
+##############################################################
+
+========================== Aula 1 ============================
+
+
+Imagens
+
+        Direitos Autorais:
+
+        Não utilize imagens públicas de qualquer local em seus
+        sites e projetos. Existem imagens que são permitidas, 
+        para utiliza-las:
+
+        1- Faça a busca no Google Imagens
+        2- Clique em ferramentas.
+        3- Clique em direitos de uso, e selecione um:
+
+        A- Sem filtro de licença 
+                (Sem dono, ou com dono)
+        B- Marcadas para reutilização com modificação:
+                Maior nível de liberdade para uso. Uso e edição
+        C- Marcadas para reutilização:
+                Disponível para uso, mas nao edição.
+        D- Reutilizazação nao comercial com modificação.
+                Pode ser utlizada e editada, desde que não seja
+                para fins comerciais
+        E- Reutilização não comercial
+                Pode utiliza-la, porém sem editar e para fins
+                não comerciais.
+
+        
+        Sites para imagens livres:
+
+        unsplash - ( fazer buscas de imagens em ingles)
+        Pexels - ( '' )
+        
+
+
+========================== Aula 2 ============================
+
+
+Formato de Imagens
+
+JPEG - A imagem é compactada para ocupar menos espaço
+PNG - Permite transparência.
+
+
+JPEG a qualidade das imagens é menor, pois são compactadas, 
+já as PNG permitem colocar um funto transparente, e sua qualidade
+também é maior. 
+
+O melhor formato a ser utilizado é relativo ao razão para qual a 
+imagem está sendo utilizada no site.
+
+Leve em consideração sempre o desempenho do site, que deve ter 
+sempre a mehhor performance possível.
+
+
+
+========================== Aula 3 ============================
+
+
+
+Tamanho de Imagens
+
+Em média uma imagem tem uma escola de 650px de largura.
+
+Utilize o gimp para alterar o tamanho da imagem mas mantenha 
+sempre a imagens originais salvas como um backup
+
+
+
+========================== Aula 4 ============================
+
+
+Para importar as imagens dentro da pagina, utilize a tag img:
+
+<img src="" alt="">
+
+        img = tag
+        src="" = informe o caminho do local da imagem e o nome.
+        alt"" = informe um texto alternativo.
+
+        também é possível usar uma link url dentro do src.
+
+tag básicas usadas:
+
+        <img>
+
+
+========================== Aula 5 ============================
+
+
+Favicon. (Icone de favorito)
+
+ Favicon, são pequenas imagens que serão vinculadas ao lado 
+ do título da página na aba do navegador.
+
+O formato utlizado é o icone, .ico
+
+Sites:
+
+        iconarchive.
+        Utilize o site IconArchive para buscar icones genéricos.
+
+        favicon.cc
+        Para criar uma imagem, temos a opção de acessar o site
+        favicon.cc
+
+        favicon.io
+        E para transforma um png, text, ou favicon virar um 
+        .ico é só acessar o site favico.io
+
+Para utilizar o icone na página, você deve configura-lo dentro
+da sessão head da página, ao lado da tag title.
+
+1- Digite "link".
+
+2- Selecione a opção link:favicon do VSCode.
+
+3- Em href="" apague o conteúdo já escrito, e pressione CTRL + Space
+
+4- Selecione o seu arquivo .ico
+
+Uma boa prática é deixar o arquivo com o nome favicon.
+
+
+
+
+##############################################################
+                        Capitulo 7
+##############################################################
+
+========================== Aula 1 ============================
+
+
+
+Hierarquia dos títulos.
+
+        Os títulos possuem níveis dentro do HTML se iniciando 
+        pelo primeiro nível, através da tag <h1>
+
+        Como boa prática, utilize apenas um título de primeiro 
+        nível por página. 
+
+        Para subir os níveis, basta digitar <h2>, <h3>, etc...
+
+        Lembre-se de utilizar no máximo 6 níveis por boa prática.
+
+Para testar, tamanhos de possíveis paragrafos utilze lorem dentro 
+da tag P 
+
+1- Abra a tag de parágrafo <p>
+
+2- Dentro digite "lore", e deixe o VS code completar
+
+
+
+
+##############################################################
+                        Capitulo 8
+##############################################################
+
+========================== Aula 1 ============================
+
+
+Semântica do HTML
+
+Semântica é o significado dos vocábulos, por oposição à sua forma.
+Ou seja, se da mais valor ao significado do que a sua forma.
+
+Logo, o HTML é focado na semântica, e o que é forma é destinado ao 
+CSS.
+
+Todas as tags do HTML são focados em marcar o significado do con-
+teúdo, e o CSS fica focado na forma, como editar o formato no 
+contéudo.
+
+Para pesquisar se uma tag está obsoleta, pesquise no Google por:
+
+w3 obsolete tags
+
+========================== Aula 2 ============================
+
+
+Seguindo a didática da aula anterior, podemos notar erros em 
+boa parte dos desenvolvedores por esquecer o fundamento de que 
+o HTML é semântico. 
+
+Um exemplo está no uso da tag <b> para deixar um texto em negrito
+e a tag <i> para itálico.
+
+Tag B
+        A tag <b> é uma tag e formato, e não deve ser utilizada...
+        Uma tag que visualmente fará a mesma função e é semântica,
+        é a tag <strong>, que signifca um texto de significado 
+        forte.
+
+Tab I
+        A tag <i> também é uma tag de formatado, e lógicamente
+        também não deve ser utilizada. Para isso, podemos usar
+        a tag <EM> que visualmente terá a mesma função, porém
+        dará o significado de texto em enfâse, além de alterar
+        o formato.
+
+Dica:
+
+Para envelopar conteúdos já escritos no HTML:
+
+        1- Selecione o conteúdo a ser envelopado
+        2- Digite CTRL + SHIFT + P
+        3- Pesquise por wrap with abbreviation
+        4- Digite a tag sem sinais e pressione Enter.
+
+
+
+========================== Aula 3 ============================
+
+
+
+Seguindo os estudos de tags.
+
+Tag MARK
+        A tag mark tem a função de marcar o texto com o efeito 
+        de grifa texto.
+
+Tag Small
+        A tag small é repsonsável por deixar as letras pequenas.
+
+Tag Del
+        A tag del, tem como função traçar uma linha sobre o con-
+        teúdo, dando a entender que o texto deve ser lido
+        porém não deve ser levado em consideração.
+
+Tag ins
+        A tag ins, tem como função sublinhar o texto, dando e 
+        sua semãntica tem o significado de texto inserido.
+
+Tag sup
+        Tem por função, deixar um texto subrescrito em outro 
+        texto.
+
+Tag sub
+        Tem como função, deixar um texto subscrito em outro.
+
+Dica:
+
+A maior parte das tags, pode ser estilizadas via css dentro da
+própria tag, para isso:
+
+        1- Digite dentro da tag o parâmetro style
+        2- Coloque o parãmetro da css desejado.
+        3- Digite o valor do parâmetro css escolhido.
+
+
+
+========================== Aula 4 ============================
+
+
+Dando continuidade ao estudo da aula anterior, podemos analisar
+mais algumas tags.
+
+Tag code
+        A tag code tem por função, deixar as letras monoespaçadas.
+        Isso significa que as letras ocuparam o mesmo espaço esté
+        ticamente. É uma ótima tag para apresentar códigos.
+        Apesar de facilitar a leitura de códigos, a tag code não
+        irá formatar o code com indentações.
+
+Tag pre
+        A tag pre, irá obedecer as indentações e quebras de linhas
+        escritar no HTML. Usada junta com a tag code, é uma ótima
+        ferramenta.
+
+Tag q
+        A tag q, tem como função dar o sentido de Citação para 
+        o texto, colocando entre aspas duplas.
+
+Tag blockquote
+        Semelhante a tag Q, também tem por objetivo dar o senti-
+        do de citação. Porém, é designado a blocos de textos 
+        maiores como estrofes. Além disso o bloco inteiro 
+        ficará identado.
+        Essa tag tem o parâmetro "cite", na qual o valor deve 
+        ser o endereço url da fonte da citação. Esse parãmetro
+        não terá função alguma para client. Sua função serve
+        para complementar e auxiliar mecanismos de buscas e a 
+        parte interna do site. Além de garantir os direitos de 
+        autoria.
+
+Tag abbr
+        Ter por função, dar sentido de abreviação a uma sigla.
+        Quando o client passar o mouse sobre a sigla, o parâ-
+        metro tittle, irá apresentar o texto completo.
+
+Tag bdo
+        Essa tag, não tem muita utilidade. Tem por função 
+        inverter o texto. Através do parâmetro dir, basta in-
+        formar a direção:
+        ltr = left do right (direção comum)
+        rtl = right to left (direção contrária.)
+
+
+
+##############################################################
+                        Capitulo 9
+##############################################################
+
+========================== Aula 1 ============================
+
+
+Listas 
+
+        OL:
+                Listas OL são listas ordenadas, que tem por 
+                função listar o conteúdo do HTML. Sozinha, a
+                tag somente irá identar o conteúdo, pois ela
+                deve saber quais são os itens da lista. Logo
+                ela deve ser usada em conjunto com a tag <li>
+                que marcara um conteúdo como sendo um item da
+                lista. O client, irá tomará a função de orde-
+                nar o conteúdo.
+                Obs: A partir do HTML5, o fechamento da tag
+                <li> se tornou opcional.
+
+                Parâmetros da tag OL:
+
+                Type:
+                        É possível determinar o tipo da lista
+                        através do parâmetro type:
+
+                        1 = lista numérica
+                                Sub parãmetro start:
+                                O número no qual a lista irá
+                                iniciar.
+                        
+                        A/a = A lista passa a ser formada em or-
+                        dem alfabética. No caso de "A", a lista
+                        será em letras maiúsculas, e no caso de
+                        "a", a lista será formada em letras min-
+                        núsculas.
+
+                        I/i = Será listado em algarismos românos.
+                        Segue a mesma regra de diferenciação para
+                        minúsculo ou maiúsculo.
+
+                        Obs: Os valores A/a e I/i, também possuem
+                        o sub parâmetro start, porém ele continua 
+                        tendo os seus valores preenchidos numérica-
+                        mente.
+
+        UL:
+                Ao contrário da Tag OL, a tag UL apresenta uma
+                lista não ordenada (onde não há importancia para
+                a ordem). Usada sozinha, esteticamente também só 
+                irá indentar o conteúdo, e deve ser utilizada 
+                em conjunto com a tag <li> para identifcar os i-
+                tens da lista.
+
+                Parâmetros da tag UL:
+
+                Type:
+
+                        square = circulo preenchido.
+
+                        circle = circulo em branco
+
+                        square = quadrado preenchido.
+
+
+
+========================== Aula 2 ============================
+
+
+Listas Aninhadas.
+
+
+É importante ter conciencia de que as listas podem conter
+outras listas dentro delas. Basta ir aninhando as tags da 
+forma desejada. É recomendado que se altere o tipo das listas
+dentro de outras, para uma melhor interpretação do conteúdo.
+
+
+Dica da Aula:
+
+No VSCode, vocẽ pode criar multiplos cursores para edição do 
+conteúdo. Para isso, siga os passos:
+
+        1 - Clique no local desejado para criar o cursos.
+
+        2 - Segue o botão ALT, e clique no próximo local
+        desejado para criar cursor.
+
+
+
+Listas de Definição.
+
+        As listas de defnição são utilizadas como um dicionário.
+        Onde a lista mostra determinados títulos, com suas defi-
+        nições.
+
+        As listas de denifição são configuras com as seguintes
+        tags:
+
+        1 - <dl> Inicia a lista de Definição
+        2 - <dt> Título do conteúdo.
+        3 - <dd> Definição do título do conteúdo.(<dt>)
+
+
+
+
+##############################################################
+                        Capitulo 10
+##############################################################
+
+========================== Aula 1 ============================
+
+
+Links e Âncoras
+
+Links são maneiras do client acessar outras páginas de outro
+ou mesmo site através de âncoras (pontos clicáveis chamados 
+de hyperlinks).
+
+Para criar uma âncora, siga os passos:
+
+        1 - Envelope o texto a virar uma âncora com a tag
+        <a>
+
+        2 - Coloque o link no parãmetro href="".
+
+        3 - Para recuperar o viwer, utilize o parâmetro
+        target="_blank". Desta maneira o link será aberto 
+        em uma nova aba.
+
+        4 - Tenha por hábito utilizar o novo parâmetro 
+        rel="external" para determinar que o link é externo
+        com relação ao seu site.
+
+        Obs: Para links externos, é possível determinar para
+        mecânismos de busca que você não da um aval de acesso
+        para esse link. Para isso basta digitar no parãmetro
+        rel="" o valor "nofollow"
+
+
+========================== Aula 2 ============================
+
+
+Links internos
+
+É importante saber que para links internos também é necessário
+configurar da maneira correta as suas tags, para que mecanismos
+de busca como Google, possam direcionar viwers da maneira corre-
+ta para o seu site.
+
+Para configurar links internos, é mais simples do que links
+externos, não sendo necessário informar a URL inteira, apenas
+o local do arquivo local/servidor:
+
+        1 - Envelope o texto a virar âncora com a tag <a>
+
+        2 - Em caso do da página destino estar na mesma pasta,
+        basta informar o nome do arquivo. Do contrário, informe
+        o caminho completo.
+
+        3 - Com o parâmetro rel="", informe se o usuário estará
+        avançando as páginas, ou recupando para páginas ante-
+        riores:
+                rel="next" = avançando conteúdo
+                rel="back" = recuando conteúdo.
+
+        4 - Aqui também é recomendado usar o parãmetro target, 
+        porém agora com o valor "_self" que indica que o client
+        será direcionado a um link do próprio site.
+
+
+========================== Aula 2 ============================
+
+
+Links para Download.
+
+Para colocar conteúdos para download é simples, basta colocar o 
+conteúdo dentro de uma pastar exclusiva pra downloads (boa prática),
+envelopar o conteúdo com a tag <a> e preencher alguns parãmetros:
+
+        1 - Envelope o conteúdo com a tag <a>
+
+        2 - Informe o caminho do conteúdo com o parãmetro href=""
+
+        3 - Coloque o parâmetro download, e preencha o valor com
+        o nome do arquivo que será baixado pelo client
+
+        4 - Insira o parâmetro type, e preencha o seu valor
+        de acordo com o tipo do arquivo que será baixo. 
+        Em caso de dúvidas vide a lista neste link:
+
+        https://www.iana.org/assignments/media-types/media-types.xhtml
+
+
+
+##############################################################
+                        Capitulo 11
+##############################################################
+
+========================== Aula 1 ============================
+
+
+Mídias:
+
+Nesta aula, foram criadas imagens em 3 tamanhos pelo programa GIMP.
+As mesmas, serão utilizadas na próxima aula.
+
+
+
+========================== Aula 2 ============================
+
+
+Imagem dinâmica:
+
+Utlizando as mesmas imagens criadas na aula anterior, vamos criar
+um site onde apresente essas imagens de forma dinâmica, onde o 
+tamanho irá ordenar qual imagem deve ser apresentada.
+
+Utilize a tag PICTURE, e dentro dela coloque a imagem padrão através
+da tag IMG. Lembre-se que a imagem padrão deve ser a menor, ou a maior
+possível.
+
+Acima, da tag IMG, vá colocando em ordem a imagem em outros tamanhos
+através da tag SOURCE. 
+
+        Source:
+        A tag source possue os seguintes parâmetros:
+                Media: 
+                        O tamanho máximo ou minimo em pixels, para
+                        que a regra seja atribuida.
+                srcset:
+                        O caminho do arquivo.
+                type:
+                        A pasta da imagem, mais o tipo do arquivo.
+
+Ex:
+
+<picture>
+        <source media="(max-width: 750px)" srcset="images/imagem-p.png" type="image/png">
+                // caso a imagem-m.png exceda 750px de largura, será apresentada A
+                // imagem-p.png
+        <source media="(max-width: 1050px)" srcset="images/imagem-m.png" type="image/png">
+                // Caso a imagem-g.png exceda 1050px de largura, será apresentada a 
+                // imagem-m.png
+        <img src="images/imagem-g.png" alt="flex image">
+</picture>
+
+
+========================== Aula 3 ============================
+
+
+Audios
+
+Existem mais de uma forma de apresentar audios dentro do seu 
+site. Segue abaixo algumas maneiras de inseri-los:
+
+Tag <audio>
+
+        Para utilizar a tag áudio, existem dois caminhos:
+
+        A - Use a tag audio, e preencha o parâmetro src=""
+        com o caminho do arquivo de áudio, dando exclusi-
+        vidade para os formatos mp3, wav e ogg.
+
+                Para apresentar os play automatico ao 
+                carregar a página, coloque o parâmetro:
+                                autoplay
+                Para mostrar o play, utilize o parâmetro
+                controls.
+
+        B - Abra as tag audio, mas não utilize nenhum
+        parâmetro. Para informar o caminho do arquivo, 
+        abra uma tag:
+
+                        <source src>
+        
+        A mesma se encarregará de localizar o arquivo, 
+        dentro dela preencha oa parâmetros src=""
+        com o caminho do arquivo, e type=""
+        com audio/"formato do arquivo".
+
+        Alguns formatos e seus respesctivos types:
+
+        .mp3 = audio/mpeg
+        .ogg = audio/ogg
+        .wav = audio/wav  (arquivos muito pesados)
+
+        É importante entender que dentro da tag audio, 
+        é possível colocar vários audios através da tag
+        source, obedecendo a ordem desejada à ser tocada.
+
+        #################################################
+
+        Alguns parâmetros extras da tag <audio>.
+
+        preload:
+                Configura, um pre carregador do arquivo
+                em seu site. Valores:
+                -Auto
+                        Somente considera que o site ter-
+                        minou de carregar, após o áudio
+                        também ser totalmente carregado.
+                -Metadata(mais recomendado)
+                        Irá carregar apenas alguns dados
+                        do arquivo, como data, tamanho,
+                        formato.
+                -none
+                        Nâo irá carregar nada do arquivo
+                        de áudio.
+
+        autoplay:
+                Toca o áudio, assim que o site é carregado,
+                não é muito recomendado pois pode fazer com 
+                que a página demore muito para ser carregada
+                dependendo do arquivo.
+
+        controls:
+                Exibe um pequeno player, para que o usuário
+                possa controlar a musica.
+
+        loop:
+                Quando o áudio terminar, o mesmo começa a 
+                tocar do início automaticamente.
+
+
+========================== Aula 4 ============================
+
+
+Videos
+
+Dando sequencia no conteúdo de mídas, vamos falar agora ví-
+deos.
+
+Os vídeos mais suportados pelos navegadores atualmente são:
+
+-MP4 / M4V 
+-WEBM
+-OGV
+
+Para não ter problemas com os codecs, sempre suba o vídeo
+pelo menos em MP4/M4V OU WEBM.
+
+Dica: Caso o cliente exige um vídeo grande, e que o mesmo
+fique hospedado no próprio servidor. Utilize o programa 
+HAND BREAK.
+
+É importante ter o vídeo em vários formatos para que a 
+maioria dos navegadores usados pelos seus clientes, sejam
+compatíveis com o video.
+
+Tag video
+
+        Para apresentar o vídeo basta usa a tag <video>
+        que tem sua utilização semelhante a tag <audio>.
+        E também possui dois caminhos, o primeiro é 
+        o mais simples, porém menos indicado. Devido a 
+        possibilidade de incompatilibilidade com browsers
+        pois só é possível colocar um formato de arquivo.
+
+
+        A - Caminho Simples
+                1 - Use a tag <video>
+                2 - Preencha o parâmetro src="" com o caminho 
+                do arquivo
+                3 - Insira o parâmetro controls 
+        
+        B - Caminho recomendado
+                1 - Use a tag <video>
+                2 - Dentro da tag video, utilize a tag:
+                <source src>
+
+        parâmetros:
+        
+        Poster:
+                Com o parametro poster, é possível usar uma
+                thumbnail(poster) para o vídeo, quando o 
+                client ainda não deu play no vídeo.
+
+        loop:
+                Reinicia o vídeo automaticamente assim
+                que ele reinicia.
+
+
+========================== Aula 5 ============================
+
+
+Videos externos.
+
+Como vimos anteriormente, hospedar vídeos de forma interna
+no nosso servidor, podem gerar um custo muito alto de banda.
+Além de deixar o nosso site muito pesado.
+
+Uma alternativa a isso é utilizar sites que estão hospedados
+em outro servidor, ou seja, são vídeos externos ao nosso
+servidor.
+
+Vamo checar duas opções mais conhecidas:
+
+        Youtube
+                O modo mais simples para incorporar vídeos
+                do youtube, é:
+
+                1 - acessar o vídeo desejado pela
+                plataforma. 
+
+                2 - Clique em compartilhar, e selecione
+                incorporar.
+
+                3 - Selecione as opções que deseja, e cli-
+                que em COPIAR.
+
+                4 - Insira o código copiado diretamente
+                No HMTL, e deixe a mágia acontecer.
+
+        Vimeo
+                Semelhante ao youtube, faça:
+
+                1 - Acesse o video que deseja incorporar.
+
+                2 - Clique em compartilhar.
+
+                3- Faça as configurações que deseja, e 
+                clique em código.
+
+                4 - Copie o codigo, diretamente em seu html.
