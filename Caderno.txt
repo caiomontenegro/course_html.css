@@ -1079,3 +1079,230 @@ As CSS, podem ser aplicadas de 3 formas:
 
 O uso de um ou mais modos de declarar as CSS, não impede 
 o uso de outro modo.
+
+
+
+##############################################################
+                        Capitulo 13
+##############################################################
+
+========================== Aula 1 ============================
+
+Emoções de cores
+
+As cores, são responsáveis por criar emoções nos nossos clientes
+e viewers. Existem estudos, que mostram que as cores são respon-
+sáveis até pela conversão de clientes. Isso tudo através das
+cores escolhidas, hamornia, e psicologia por trás da cor.
+
+Círculo Cromático.
+
+O circulo cromático, serve para nos auxiliar na escolha da
+paleta de cores que iremos escolher para o nosso site. Tendo 
+em vista as emoções das cores, existem estratégias pré-definidas
+para usarmos na escolha. São elas:
+
+Cores frias / cores quentes:
+        As frias dão sensação de tranquilidade e sabedoria.
+        Já as quentes, dão sensação de calor e proximidade.
+
+Cores complementares:
+        Cores contrárias umas as outras no circulo cromático.
+        Oferecem o maior contraste
+
+Cores Análogas:
+        São as cores vizinhas entre si, e oferecem a maior
+        harmônia entre si.
+
+Análogas + complementar
+        Seleciona-se um grupo de cores análogas, e uma
+        cor complementar para oferecer contraste.
+
+Analogas Relacionadas
+        São duas cores análogas, mais uma cor não vizinha
+        às escolhidas, porém bem próxima. Oferecendo harmonia
+        e um pouco de constraste
+
+Cores Intercaladas
+        Quando se escolhe 3 cores intercaladas no circulo
+        cromático. Oferencendo um balanço entre harmonia e 
+        constraste.
+
+Cores Triádicas:
+        São escolhidas cores do circulo, que conectadas, formam
+        um triângulo. Gera um bom constrates entre as cores.
+
+Cores em quadrado
+        Semelhante a triádicas, são escolhidas 4 cores que co-
+        nectadas formam um quadrado.
+
+Cores Tetrádicas
+        São selecionadas 4 cores, foram dois pares de cores
+        vizinhas. Conectadas, devem formar um retângulo no 
+        circulo cromático.
+
+Monocromia.
+        COmo o nome já diz, é escolhida apenas uma cor, onde
+        é manuseada sua saturação e brilho, dando o visual
+        de contraste.
+
+Como aplicar essas tecnicas?
+
+Podemos usar a ferramenta do adobe, mas nos ajudar selecionar
+as cores:
+
+        color.adobe.com/pt/
+
+No modo CRIAR, podemos escolher o modo de cores RGB, e sele-
+cionar a regra de harmonia que queremos criar.
+
+No modo Explorar, podemos podemos usar paletas prontas.
+
+
+========================== Aula 2 ============================
+
+
+Cores no CSS.
+
+Formas de representar as cores através do CSS.
+
+Nome:
+        Digitando o nome da cor em inglês, e depois ajustando
+        o brilho e contraste através do VSCode.
+
+Hexadecimal:
+        Representando a cor através de código hexadecimal.
+        <!-- Hexadecimal 1 2 3 4 5 6 7 8 9 A B C D E F -->
+        Todas as cores são formadas por uma quantidade de
+        azul, verde e azul. Exemplo:
+
+                #0000FF
+
+          # = Inicia o código hexadecimal
+         00 = Primeiros dois zeros é a quantidade de vermelho
+         00 = Terceiro e quarto zero é a quantidade de verde
+         FF = Quantidade de azul.
+
+         Logo não temos verde e nem vermelho neste código,
+         porém temos quantidade máxima de azul. 
+
+RGB (decimal):
+        Dessa forma declaramos explicitamente o termo "rgb", 
+        depois a quantida de verde, vermelho e azul dentro 
+        dos parâmtros. Exemplo:
+
+                rgb(0, 255, 0)
+
+        rgb = declaração de cor
+          0 = primeiro zero quantidade de vermelho
+        255 = quantidade de verde
+          0 = quantidade de azul
+
+        Logo, não temos as cores vermelho e azul no código, 
+        porém temos o máximo de quantidade de verde.
+
+Caracteristica das cores:
+        Dessa forma é declarada as 3 caracteriscas das cores
+        que são matís, saturação e luminosidade. Ex:
+
+                hsl(240, 100%, 50%)
+ 
+        hsl  = declaração de cor
+        240  = matís
+        100% = saturação
+         50% = luminosidade
+
+        Com essa combinação, temos a cor azul.
+
+
+========================== Aula 3 ============================
+
+
+Conteúdo foi todo anotado nas aula 2
+
+
+========================== Aula 4 ============================
+
+
+Paleta de Cores:
+
+Sabendo das regras anteriores de harmonização, para criar 
+a nossa paleta de cores, devemos usar no máximo de 5 cores,
+contando com a cor principal escolhida de acordo com os 
+objetivos do site.
+
+Ferramentas:
+
+        Ferramenta oficial da Adobe
+
+        color.adobe.com/pt/
+
+        Outra ferramenta:
+
+        Paletton.com
+        
+        Para quem não tem idéia do que usar:
+
+        coolors.com
+
+
+========================== Aula 5 ============================
+
+
+Capiturando cores.
+
+Colorzilla:
+        A extensão Colozilla para googlechrome permite, 
+        o uso de um conta gota, que consegue absorver qualquer
+        cor dentro de uma página. 
+
+        1- Clique no menu da extensão
+        
+        2- Clique em Page COlor Picker
+
+        3- Clique na cor que deseja descobri o código.
+        O mesmo será copiado automaticamente.
+
+
+========================== Aula 6 ============================
+
+
+Gradiente(degradê)
+
+        Para realizar um degradê no css. É necessário usar 
+        o parâmetro backgroud-image, em sequência digitar a 
+        função linear-gradient, informar a direção e em
+        sequeência fornecer as cores. Ex:
+
+        body {
+                backgroud-image: linear-gradient(to-right, blue, pink)
+        }
+
+        É possível determinar a espaçamento de cada cor, rela-
+        tiva a outra, informando a porcentagem desejada.
+
+        A direção também pode ser informada em graus, onde:
+
+        90° = Lateral
+        45° = Diagonal
+        180°= Vertical
+        (Para inverter a ordem as cores, basta colocar um sinal
+        de menos antes do valor informado em graus.)
+
+        É possível colocar quantas cores quiser dentro da função
+
+        Também é possível fazer na direção de cima para baixo
+        ou de baixo para cima. Mas antes é necessário rea-
+        lizar uma configuração global nas CSS:
+
+        * {
+                height: 100%
+        }
+
+        Também é possível usar a função radial-gradiente, como
+        exemplo, usando o valor circle.
+
+
+========================== Aula 7 ============================
+
+
