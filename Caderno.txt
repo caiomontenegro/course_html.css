@@ -1019,3 +1019,63 @@ Vamo checar duas opções mais conhecidas:
                 clique em código.
 
                 4 - Copie o codigo, diretamente em seu html.
+
+
+##############################################################
+                        Capitulo 12
+##############################################################
+
+========================== Aula 1 ============================
+
+CSS
+
+Cascading Style Sheets são as folhas de estilo em cascata.
+
+As CSS, podem ser aplicadas de 3 formas:
+
+1- Inline:
+        É a maneira mais simplificada, e usada em casos
+        pontuais, onde o estilo é imposto nas tags usando
+        o parãmetro style. Ex:
+
+        <p style="backgroundcolor="black">
+            lorem
+        </p>
+
+        // Neste caso, dentro do parãmetro style, foi 
+        // informado qual o estilo desejado no fundo.
+
+        Mesmo que hajam tag's iguais, o estilo será 
+        imposto somente na tag onde o parâmetro style
+        foi inserido.
+
+
+========================== Aula 2 ============================
+
+
+2 - Css interno:
+        Do contrário do estilo Inline, o uso de CSS interno
+        o código das CSS de toda a página é escrito junto 
+        dentro da tag <style>, que é inserida dentro da 
+        tag <head>
+
+
+========================== Aula 3 ============================
+
+
+3 - CSS Externo:
+        A forma mais comum e recomendada pra impletar suas
+        CSS. É semelhante ao CSS inteiro, porém é criado 
+        um arquivo exclusivo para as CSS. E os arquivos 
+        HTML que terão o estilo do arquivo CSS, apenas
+        precisará criar uma conexão com o arquivo CSS, a-
+        través da tag <link stylesheets>
+
+        COmo boa prática, declare as regras do arquivo CSS
+        logo no início do mesmo, um exemplo de regra é:
+
+        @charset "UTF-8;
+
+
+O uso de um ou mais modos de declarar as CSS, não impede 
+o uso de outro modo.
