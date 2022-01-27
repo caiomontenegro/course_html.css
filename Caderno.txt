@@ -1299,10 +1299,69 @@ Gradiente(degradê)
                 height: 100%
         }
 
-        Também é possível usar a função radial-gradiente, como
+        Também é possível usar a função radial-gradient, como
         exemplo, usando o valor circle.
 
 
 ========================== Aula 7 ============================
+
+
+Parãmetros CSS usados na aula:
+
+color
+        Valor é o nome da cor ou valor hexadecimal.
+        Cor do texto.
+
+background-image        
+        linear-gradient(to right, pink, purple)
+
+        Tradução:
+        background image = (fundo com cor ou imagem dinâmica)
+        linear-gradiente = (Degradê linear)
+        radial-grandient = (Degradê em radial)
+        to right         = Direção do degradê
+        pink             = Cor de início
+        purple           = Cor final
+
+
+width
+        Valor em "px" ou "%"
+        Largura do seletor
+
+height 
+        Valor em "px" ou "%"
+        Altura do seletor
+
+padding
+        valor em "px"
+        pequeno espaçamento entre o conteúdo, e os limites
+        do seletor
+
+margin
+        valor em "px" ou "%"
+        Margem externa do seletor com o fundo da página.
+
+text-align
+        valores: right, left, bottom, top, center, justify
+        Alinhamento do conteúdo dentro do seletor
+
+border-radius
+        Valor em "px" ou "%".
+        Curvatura das bordas do seletor.
+
+box-shadow
+        Valores:
+           px = espaçamento Lateral
+           px = espaçamento inferior
+           px = espalhamento da sombra
+        black   cor da sombra
+        Gera uma sombra no seletor.
+
+        Dica: Trabalhe a transparência da sombra
+
+Text-shadow
+        Exatamente o parâmetro anterior, porém para textos.
+
+
 
 
