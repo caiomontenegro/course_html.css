@@ -1364,4 +1364,163 @@ Text-shadow
 
 
 
+##############################################################
+                        Capitulo 14
+##############################################################
 
+========================== Aula 1 ============================
+
+
+
+Tipografia
+
+A tipografia tem início no século 15, onde os monges copistas/
+amanuenses, eram responsáveis para produzir os livros.
+
+Quando Johannes Gutenberg, criou a prensa mecanica em 1450.
+
+O termo vem de duas palavras gregas:
+
+        tipo = typos - impressão
+        grafia = graphía - escrita
+
+        Estudo de como escrever coisas em telas/papel
+
+A tipografia, como as cores, também gera emoções.
+
+
+========================== Aula 2 ============================
+
+
+Anotomia dos tipos:
+
+Tipos, é cada uma das fontes.
+
+Itens Métricos:
+
+        Na produção de um tipo, sempre é levado em consideração pri-
+        meiramente a letra "x" minúscula. Onde as demais letras seguem
+        a sua altura. Em sequência é avaliado a altura das letras ma-
+        iúsculas. E finalmente, após isso, é calculado a altura do 
+        "vazamento" superior de algumas letras como a letra "h", que
+        é chamado de acendente, e o vazamento inferior das letras, como
+        a letra "g", que são chamados de descendentes.
+
+E a altura total, desde a descendente até a altura das letras
+maiúsculas, são o corpo.
+
+Anatomicos geométricos:
+
+        Serifas:
+                Pequenos vazamentos laterais das letras em algumas 
+                fontes.
+                O objetivo é criar uma linha de altura e base ima-
+                ginária entre as letras, facilitando a leitura de 
+                forma inconciente.
+
+        Hastes:
+                Hastes são as barras contidas em algumas letras, 
+                como por exemplo "L" "H" "B".
+        
+        Filete:
+                São traçados horizontais que cruzam algumas letras,
+                exemplo: "e" "a" "B"
+
+        Arco:
+                São curvaturas contidas em algumas letras. Por 
+                exemplo: "n" "m" "u"
+        
+        Esporão:
+                Contido em algumas fontes, o esporão serve para
+                dar base a algumas letras, e tem a aparência de
+                um pequeno salto alto. Ex: "b" "d" 
+        
+        Vértice:
+                Ponta extrema contida na parte mais alta ou baixa
+                da letra. Ex: "A" "V" "W" "M"
+
+        Terminal:
+                Uma ponta que não esta presa em outro lugar, con-
+                tido em algumas letras. Por exemplo: "r" "e"
+
+
+Anatomicos humanizados:
+
+        Braço:
+                São componentes que partem de uma haste. Exemplo:
+                "k" "F"
+        
+        Perna:
+                São componentes que saem da aste, com direção a 
+                a parte inferior da letra. Exemplo: "k"
+
+        Pé: 
+                Normalmente são ons destão localizadas as Serifas
+                porém, existem fontes sem serifas que possuem pés.
+                Exemplo: "i" "a" 
+
+        Espinha:
+                Normalmente são curvaturas no centro da letra.
+                Exemplo: "S" "Z"
+
+        Barriga:
+                É a conexão curvada entre duas hastes. Exemplo:
+                "b" "d" "p"
+
+        Olho:
+                São os pequenos espaçamentos dentro das letras,
+                exemplo:
+                "A" "O" "Q" "e"
+
+        Calda:  
+                Vazamentos inferiores contidos em algumas letras,
+                exemplo: "q" "g" 
+
+Glifo:
+        Glifo são as letras, e o conjunto de todas os glifos do 
+        mesmo grupo, é chamado de fonte.
+
+Familia Tipografica:
+        É o nível de negrito contido em um glifo. Exemplo:
+        
+                light     = Letra fina
+                normal    = comum
+                SemiBold  = Semi negrito
+                bold      = negrito
+                ExtraBold = extra negrito.
+
+        Nem todas as fontes possuem todos os itens da Familia
+        tipográfica.
+
+
+Serif e Sans Serif.
+
+        Serifados, são textos com as serifs (vide o conteúdo
+        abordado acima)
+
+        Sans Serif, são textos sem as serifs.
+
+        Dica:
+
+        Textos longos em tela, de preferência a Sans Serif
+        com cores complementares (contraste)
+
+Monoespaçada
+
+        O tamanho lateral das letras, é exatamente o mesmo.
+
+Handrwiting.
+
+        Simula a escrita feita a mão, como letras cursivas.
+
+Display
+        
+        São fontes comemorativas, normalmente apresentadas 
+        em conteúdos mais discontraídos.
+
+
+
+========================== Aula 2 ============================
+
+
+Famílias de fontes
