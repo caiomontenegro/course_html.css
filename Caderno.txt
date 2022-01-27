@@ -1523,4 +1523,97 @@ Display
 ========================== Aula 2 ============================
 
 
-Famílias de fontes
+Famílias de fontes:
+
+Safe-Combination:
+Alguns navegadores ou computadores não possuem determinada fonte,
+neste caso é comum, determinar uma ordem de fontes a serem exibidas
+no caso de uma não estar disponível, será usada a próxima fonte 
+imposta. Consulte Safe Combinations no google, e acesse:
+                
+                CSS web safe fonts.
+
+
+========================== Aula 3 ============================
+
+
+Tamanhos: (Seguindo o W3C)
+
+Existem duas medidas de tamanho que podemos seguir:
+
+        - Medidas Absolutas:
+                
+                cm = centimetro
+                mm = milimetro
+                in = polegada
+                px = pixels
+                pt = pontos
+                pc = paica
+        
+        - Medidas Relativas:
+
+                em = relativo ao tamanho atual da fonte
+                ex = relativo a altura x de uma fonte
+                rem = relativo ao root.
+                vw = relativo a largura da tela
+                vh = relativo a altura da tela
+                %  = porcentagem
+
+        A W3C, recomenta o PX (pixel) como medida absoluta
+        e EM (altura do M) como relativo. Valores padrão:
+
+        1 em ou 16px.
+
+
+========================== Aula 4 ============================
+
+
+Peso da Fonte:
+
+        Para se utilizar das configurações de peso da fonte, 
+        primeiro é necessaŕio:
+
+         1 - Import o URL:
+         2 - Escolher a font-family: 'work Sans' , "fonte"
+         3 - Escolher font-weight:  
+                                lighter = magro
+                                normal  = comum
+                                bold    = negrito
+                                bolder  = extra negrito.
+        
+        Font Style
+
+                italic = itálico
+                normal = comum
+
+        Text-decoration:
+
+                underline: sublinhado
+
+        Não são todas as fontes que suportam essas configu-
+        rações.
+
+Logo as confiturações mais usadas serão:
+
+        - font-family
+        - Font-weight
+        - font-size
+        - font-style
+
+        Podemos simplificar o uso dessas quatro confi-
+        gurações de font, com apenas um parâmetro.
+        Chamamos isso de shorthand:
+
+        O shorthand pra fontes, obedece a ordem:
+
+        font-style > font-weight > font-size > font Family.
+
+        Exemplo no exercício 17.
+
+
+========================== Aula 5 ============================
+
+
+Fontes externas
+
+        
