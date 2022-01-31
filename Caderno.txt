@@ -1616,4 +1616,108 @@ Logo as confiturações mais usadas serão:
 
 Fontes externas
 
-        
+        Podemos usar fontes externas, através de links. Já que
+        as fontes já instaladas nos navegadores são muito limi-
+        tadas.
+
+        O google oferece uma gama de fontes muito grande 
+        para serem utilizadas:
+
+        fonts.google.com
+
+        1 - Escolha a fonte no google Fonts
+        2 - COloque a regra no início do arquivo CSS, informado
+        no google fonts
+        3 - Digite o nome da fonte em font-family ou no terceiro 
+        falor de font.
+
+        Exemplos no exercício 18.
+
+
+========================== Aula 5 ============================
+
+
+Fontes externas baixadas:
+
+        Além de usar fontes externadas linkadas, também podemos
+        baixar fontes externas. Passo a passo:
+
+        1 - Acesse o site dafont.com
+        2 - Pesquise pela fonte desejada. (Se atente aos glifos disponíveis)
+        3 - Baixe a fonte, e extraia os arquivos TTP ou OTP 
+        para uma pasta fonts.
+        4 - Crie uma regra no arquivo CSS com o Parãmetro font-facebook
+        5 - Crie um nome para font no parâmetro font-family
+        5 - Indique o caminho do arquivo, e o formato. Sendo eles:
+                TTP = trutype
+                OTP = opentype
+
+        Exemplo no exeríccio 18 > fonte02.html
+
+
+========================== Aula 6 ============================
+
+
+Capturando fontes.
+
+        Passo a passo:
+
+        1 - Baixe a extensão Fonts Ninja do Google CHorme
+        2 - Clique em start
+        3 - Clique sobre a fonte para obter todas as informa-
+        ções.
+
+
+========================== Aula 7 ============================
+
+
+Capturando Fontes de Imagens.
+
+        Existem 3 sites que podemos usar para capturar as fontes.
+        Caso não funcione em um, tente outro. ( O resultado não
+        é 100% preciso).
+        Sites:
+
+        - whatfontis.com
+        - fontsquirrel.com
+        - myfonts.com
+
+        Tire um print da imagem com a fonte, ou baixe a imagem 
+        com a fonte. 
+
+        Abra o site, e envie a imagem no local indicado.
+
+        Se possível, edite a imagem para criar constrate na 
+        imagem.
+
+
+========================== Aula 6 ============================
+
+
+O conteúdo será praticado no exercício 17.
+
+Alinhamento de texto:
+
+text-align:
+Existem 3 tipos:
+
+        - Center 
+                O conteúdo fica centralizado.
+        - Right 
+                O contúdo fica alinhado a direita.
+        - Left 
+                O conteúdo fica alinhado a esquerda. (Padrão)
+        -justify
+                O conteúdo fica alinhado tanto na direita
+                como na esquerda.
+
+        Passo a passo:
+
+        1 - Dentro do seletor abra o parâmetro text-align:
+        2 - Digite um dos valore informados acima.
+
+
+text.indent:
+        Serve para criar paragro no blocos de textos.
+        O valor é imposto em EM ou PX.
+
