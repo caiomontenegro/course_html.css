@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elements</title>
+    <style>
+        body {
+            background-color: purple;
+        }
+        
+        a {
+            text-decoration: none;
+            font-weight: bold;
+            color: springgreen;
+        }
+
+        a:visited {
+            color: turquoise;
+        }
+
+        a:active {
+            color: pink;
+        }
+        
+        a:focus {
+            color: black;
+        }
+
+        .my:hover {
+            text-decoration: underline;
+        }
+
+        .my:hover::before {
+            content: '-->';
+        }
+
+        .my:hover::after {
+            content: ' <--';
+        }
+
+        .my {
+            color: greenyellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pseudo-Elements</h1>
+    <ul type="">
+        <li><a class="my" id="profissional" href="https://www.linkedin.com/in/caio-montenegro/" target="_blank">linkedin</a></li>
+        <li><a href="https://www.youtube.com/c/CursoemV%C3%ADdeo" target="_blank">Video in course</a></li>
+        <li><a class="my" href="https://github.com/caiomontenegro" target="_blank">Caio's Github.</a></li>
+    </ul>
+</body>
+</html>

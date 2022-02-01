@@ -652,7 +652,7 @@ Listas
 
                 Type:
 
-                        square = circulo preenchido.
+                        Não preencher = circulo preenchido.
 
                         circle = circulo em branco
 
@@ -1890,9 +1890,37 @@ Extra:
                 cursor do mouse passar por cima do elemento 
                 <div>
 
+Pseudo-classes:
+
+
+:visited = Altera o elemento caso o link já tenha sido visitado
+
+:active  = Altera o elemento caso o usuário clique nele.
+
+:checked = Altera elemetendo que pode ser selecionados via check
+box por exemplo.
+
+:empty = Classe que irá alterar quaisquer elementos que não 
+tenham filhos.
+
+:Focus = classe que irá se acionada caso o usuário selecione o 
+elemento via teclado ou mouse.
+
+Exemplos no exerício 20
+
 
 ========================== Aula 4 ============================
 
 
-Pseudo-elemeentos
+Pseudo-elementos
 
+Podem agir nas classes, elementos e IDs. Eles mexem no conteúdo
+do elemento do HTML
+
+Os pseudo Elementos são representado por ":".
+
+Exemplos:
+
+::before = Pode-se incluir conteúdo que virá antes do elemento
+
+::after = Pode-se incluir conteúdo que virá depois do elemento.
