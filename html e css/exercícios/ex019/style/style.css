@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body {
+    background-color: cadetblue;
+}
+
+h1 {
+    color: chartreuse;
+}
+
+#main {
+    background-color: rgb(20, 50, 220);
+    text-align: center;
+    
+}
+
+.beginner {
+    color: darkgreen;
+}
+
+.intermediary {
+    color: darkkhaki;
+}
+
+.advanced {
+    color: darkred;
+}
+
+h2 {
+    color: rgb(18, 83, 204);
+}
+

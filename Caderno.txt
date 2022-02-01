@@ -1721,3 +1721,178 @@ text.indent:
         Serve para criar paragro no blocos de textos.
         O valor é imposto em EM ou PX.
 
+
+
+##############################################################
+                        Capitulo 15
+##############################################################
+
+========================== Aula 1 ============================
+
+
+Usando iDs 
+
+É possível criar IDs nas tags nas quais queremos dar uma esti-
+lização especial.
+
+Ex:
+
+        <h1> Olá Mundo </h1>
+
+        <h1 id="especial"> Olá Brasil </h1>
+
+        O segundo título, tem um ID único. No qual podemos
+        estilizar ou usa-lo de maneira especial, o identi-
+        ficando pelo seu ID "especial"
+
+Dentro do CSS, o ID é encontrado através do símbolo "#".
+
+Ex:
+
+        #especial {
+                backgroundcolor: blue;
+        }
+
+        Dessa forma somente o conteúdo sobre a tag com ID
+        "especial" terá a sua cor de fundo azul
+
+Exemplos no exercício 19
+
+
+========================== Aula 2 ============================
+
+
+Class
+
+Como boa prática solicitada pelo W3C, não se deve
+colocar o mesmo ID em mais de uma tag, a fim de 
+editar um grupo inteiro com o mesmo ID. Um ID só
+pode ser utlizado dentro de uma única TAG e nunca
+repetido.
+
+Para suprir essa necessidade usamos as CLASSES.
+
+Ex:
+
+        <h1> Olá Mundo </h1>
+
+        <h1 class="básico"> Olá Brasil </h2>
+
+        Lembre-se de nunca colocar o nome da classe com o 
+        nome da formatação que será incluída como "Azul", "negrito",
+        etc. 
+
+        O nome da classe, deve ser sempre a função do conteúdo 
+        contido na classe
+
+Dentro do CSS, a classe é encontrado através do símbolo ".".
+
+É possível aplicar mais uma classe dentro de um elemento HTML.
+Assim como um elemento pode ter um ID e uma classe. Porém o ID
+será se sobrepor à classe.
+
+Como boa prática, leve em consideração a hierarquia 
+dos elemeentos. Ex:
+
+h1 {
+
+}
+
+h1#teste {
+
+}
+
+.teste {
+
+}
+
+Exemplos no exercício 19.
+
+
+========================== Aula 3 ============================
+
+
+Pseudo-Classes
+
+Pseudo-Classes, são classes que são ativadas quando um elemento
+ou classe, muda de estado. Ex: 
+
+        A classe hover, só é ativada quando o cursor do mouse
+        passa por cima do elemento com a classe.
+
+As pseudo-classes, devem estar relacionadas a um elemento ou
+a uma classe.
+
+As psudo-classes também estão relacionadas a um estado de um
+elemento.
+
+Dentro do CSS, a Pseudo-Classe é encontrado através do símbolo ":".
+
+Ex:
+        HTML:
+
+        <h1> Title </h1> 
+        <div> 
+            Lorem
+        </div>
+
+        CSS:
+        
+        div:hover {
+                color: yellow;
+        }
+
+        Com essa pseudo-classe, asism que o mouse passar sobre o 
+        elemento <div> a cor do texto irá se alterar par blue.
+
+Extra:
+
+        É possível criar um elemento "filho"  dentro do CSS.
+        Ex:
+
+        No arquivo HTML temos:
+
+                <h1> Olá mundo </h1> 
+                <div>
+                    <p> Lorem </p>
+                </div>
+                <p>
+                    Olá aluno.
+                </p>
+        
+        Podemos escolher editar somente o paragrafo dento do 
+        elemento <div>:
+
+        No arquivo CSS:
+
+                div > p {
+                        backgroundcolor: blue;
+                }
+
+        Neste caso somente o parâgrafo dentro de div, terá
+        o seu fundo com a cor azul.
+
+        Somando isso com as pseudo Classes podemos usar 
+
+        CSS:
+
+                div > p {
+                        display: none;
+                }
+
+                // isso remove a exibição do conteúdo.
+
+                div:hover > p {
+                        display: block;
+                }
+
+                // Isso irá mostrar o conteúdo assim que o 
+                cursor do mouse passar por cima do elemento 
+                <div>
+
+
+========================== Aula 4 ============================
+
+
+Pseudo-elemeentos
+
