@@ -122,3 +122,8 @@ footer {
     bottom: 0%;
     width: 100%;
 }
+
+footer > div > a {
+    color: rgb(113, 209, 142);
+    text-decoration: none;
+}

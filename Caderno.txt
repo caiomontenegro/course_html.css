@@ -2209,3 +2209,30 @@ Siga o vídeo da aula para instruçoes completas.
 
 Use o Adobecolors para escolher uma paleta de cores.
 
+
+========================== Aula 4 ============================
+
+
+Estruturando o HTML.
+
+A estrutura básica do HTML de uma página, pode seguir o 
+modelo:
+
+head
+body
+    header
+        nav
+    main
+    article
+        aside
+    footer
+
+
+========================== Aula 5 ============================
+
+
+Organização do conteúdo.
+
+Organize o texto com as tags de títulos e parágrafos.
+
+Adcione BBR nos links necessários.
