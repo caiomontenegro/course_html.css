@@ -1929,7 +1929,7 @@ Exemplos:
 
 
 ##############################################################
-                        Capitulo 15
+                        Capitulo 16
 ##############################################################
 
 ========================== Aula 1 ============================
@@ -2171,3 +2171,41 @@ Dùvidas:
 
 1 - Icone de link
 2 - Deixar o vídeos responsivos
+
+
+
+##############################################################
+                        Capitulo 17
+##############################################################
+
+========================== Aula 1 ============================
+
+
+Comçando um Projeto
+
+Este captulo é destinado a um passo a passo para concluir o 
+desafio 10. ( O mesmo já foi feito )
+
+
+
+========================== Aula 2 ============================
+
+
+Instruções de como Projeto deve ser feito.
+
+
+========================== Aula 3 ============================
+
+
+Planejamento de Site:
+
+1 - Layout
+
+Use o site mockFlow.com, crie uma conta.
+
+Siga o vídeo da aula para instruçoes completas.
+
+2 - Cores
+
+Use o Adobecolors para escolher uma paleta de cores.
+
