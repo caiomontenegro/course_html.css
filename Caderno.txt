@@ -378,6 +378,8 @@ tag básicas usadas:
 
         <img>
 
+Para deixar a imagem responsiva, siga o exercício 11
+
 
 ========================== Aula 5 ============================
 
@@ -1646,7 +1648,7 @@ Fontes externas baixadas:
         2 - Pesquise pela fonte desejada. (Se atente aos glifos disponíveis)
         3 - Baixe a fonte, e extraia os arquivos TTP ou OTP 
         para uma pasta fonts.
-        4 - Crie uma regra no arquivo CSS com o Parãmetro font-facebook
+        4 - Crie uma regra no arquivo CSS com o Parãmetro font-face
         5 - Crie um nome para font no parâmetro font-family
         5 - Indique o caminho do arquivo, e o formato. Sendo eles:
                 TTP = trutype
@@ -1924,3 +1926,248 @@ Exemplos:
 ::before = Pode-se incluir conteúdo que virá antes do elemento
 
 ::after = Pode-se incluir conteúdo que virá depois do elemento.
+
+
+##############################################################
+                        Capitulo 15
+##############################################################
+
+========================== Aula 1 ============================
+
+
+Box-Model
+
+Tudo o que é exibido na tela, é uma caixa. 
+
+Uma caixa pode ser colocada dentro da outra, criando uma 
+hierarquia de caixas, formano dum ANINHAMENTO.
+
+A caixa exatamente do tamanho do content(conteúdo)
+
+Medidas da caixa:
+
+altura   = height
+largura  = width
+
+Preenchimento  = espaçamento entre box e border
+borda          = boder (linha que contorna o box)
+margem         = espaçamento externo da borda
+contorno       = Contorno da borda, dentro da margem.
+
+Tipos de box:
+
+Box-level:
+
+A largura dele é sempre 100% da tela, dada essa informação,
+Caso o box de cima não tenha completado a largura, o box-level
+irá quebrar a linha e será apresentado abaixo.
+
+Inline-level:
+
+Ao contrário do box-level, o Inline-level irá manter o conteúdo
+na mesma linha de outro box, caso o box anterior não ocupe 
+toda a largura da tela, o inline-level caiba na largura restante
+
+Exemplo de Box-level:
+
+<div>
+        A div, é uma box que exclusivamente ocupa a largura 
+        inteira da tela, e deve ser usada justamente com esse
+        proposito.
+
+<h1> - <h6>
+<p>
+<main>
+<header>
+<footer>
+<nav>
+<article>
+<aside>
+<form>
+<video>
+
+exemplo de inline-level:
+        
+<span>
+        O span, é semelhante a div, mas sua diferença está
+        justamente na sua utilização, que deve ser destinada 
+        quando o conteúdo não deve ocupar toda a largura da 
+        tela e quebrar a linha.
+
+<a>
+<code>
+<small>
+<strong>
+<em>
+<sup> - <sub>
+<label>
+<button>
+<input>
+<select>
+
+
+Podemos alterar essas carácteristicas pré estabelicidas desses
+elementos digitando as opções:
+
+display: block  ->  Fará com que o elemento se torne box-level
+
+display: inline block -> Fará com que o elemento se torne um 
+inline-level
+
+========================== Aula 2 ============================
+
+
+As confirgurações da box, são pré configuradas pelo user-agent.
+
+Configurações de Border:
+
+boder-style:
+        solid  - linha 
+        dashed - tracejado
+        dotted - pontilhado
+        double - Linha dupla
+        groove - marca em 3D
+
+Exemplos no exercício 21
+
+
+========================== Aula 3 ============================
+
+Margens:
+
+COmo ja visto no exercício 17, podemos configurar
+a margem de acordo com o tamanho que queremos.
+Porém, isso pode afetar a responsividade do site.
+
+Um exemplo, disso é centralizar o box no centro da página, se 
+optarmos por configurar manualmente a margem para centraliza-lo
+dependendo do tamanho do monitor do usuário, o conteúdo ficará
+torto...
+
+Uma solução simples para isso, é usar a configuração:
+
+h1 {
+        margin: auto;
+}
+
+Short-hands e simplificações no exerícicio 21
+
+========================== Aula 4 ============================
+
+
+Tags de agrupamento
+
+Além das tags vistas, também existem as tags de agrupamento.
+Elas existem para seperar os conteúdos da página de forma 
+semântica. 
+
+Exemplos:
+
+        <header>   = Cabeçalho do página
+        <main>     = Conteúdo principal da página
+        <footer>   = Rodapé da página.
+        <nav>      = Navegação da página (links)
+        <div>      = Divisões com semântica geral
+        <span>     = Divisões para trechos pequenos e pontuais.
+        <section>  = Sessões da página (normalmente dentro de main)
+        <article>  = Artigos (normalmente dentro de sections)
+        <aside>    = Sub artigos.
+
+Exemplos no exercício 21 (caixa 2)
+
+
+========================== Aula 5 ============================
+
+
+Box-shadow
+
+Colocando sombra em caixas. O box-shadow, ja é um shor-hand.
+Iremos fazer o estudo diretamente via short-hand
+
+Ex:
+        box-shadow: 1px 2px 3px black;
+
+        1px   = Espalhamento horizontal
+        2px   = Espalhamento vertical
+        3px   = Espalhamento da sombra
+        black = Cor da sombra.
+
+        Dica: Aumente a transparência da cor para dar um 
+        efeito mais realista.
+
+
+========================== Aula 6 ============================
+
+
+Border-radius
+
+Border radius é uma forma de se configurar a borda da box.
+
+Exemplos:
+
+        border-radius: 10px 20px 30px 40px;
+
+        10px = ponta esquerda superior
+        20px = ponta direita superior
+        30px = ponta direita inferior
+        40px = ponta esquerda inferior
+
+        Short-hands:
+
+        border-radius 10px 40px;
+
+        10px = superior esquerda e inferior direita
+        40px = superior esquerda e inferior direita
+
+
+========================== Aula 7 ============================
+
+
+Bordas Decoradas
+
+Este metódo serve para utilizar bordar personalizáveis na página.
+Segue abaixo um passo a passo para criar e utilizar uma borda
+personalizada utilizando gimp:
+
+1 - Clique em Arquivo > Novo.
+
+2 - Coloque 80px de altura e largura.
+
+3 - Clique em Avanaçado > Resolução X e Y de 70.
+
+4 - Cor de fundo transparente.
+
+5 - Puxe duas reguas horizontais e duas reguas verticais.
+de forma simétrica e que se pareça um jogo da velha.
+A borda será desenhada nos quadrados externos.
+
+6 - Faça um desenho um selecione uma forma geométrica, e a 
+insira em um dos quadros externos, em sequẽncia pintea.
+
+7 - Clique em duplicar camada no canto inferior direito do Gimp.
+Depois clique na ferramenta de movimento do canto superior 
+esquerdo do gimp. Caso não consiga selecionar a imagem 
+duplicada, pressione CTRL + SHIFT + A
+
+6 - Copie a camada do circulo para os outros quadrados
+externos.
+
+9 - Exporte o arquivo em formato PNG para a pasta de 
+destino.
+
+10 - No arquivo CSS e insira o code:
+
+        border: 20px solid black;
+        padding: 10px;
+        border-image-source: url('CAMINHO DA IMAGEM PNG')
+        border-image-slice: 20;
+        border-image-repeat: repeat;
+
+        Ajuste o slice de acordo com a imagem 
+        (Use o devtools para lhe auxiliar)
+
+
+Dùvidas:
+
+1 - Icone de link
+2 - Deixar o vídeos responsivos
