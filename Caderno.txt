@@ -1919,7 +1919,7 @@ Pseudo-elementos
 Podem agir nas classes, elementos e IDs. Eles mexem no conteúdo
 do elemento do HTML
 
-Os pseudo Elementos são representado por ":".
+Os pseudo Elementos são representado por "::".
 
 Exemplos:
 
@@ -2236,3 +2236,146 @@ Organização do conteúdo.
 Organize o texto com as tags de títulos e parágrafos.
 
 Adcione BBR nos links necessários.
+
+No ínicio do CSS, faça um reset  do padding e margin:
+
+* {
+        padding: 0px;
+        margin: 0px;
+}
+
+========================== Aula 6 ============================
+
+
+Variáveis em CSS.
+
+É possível criar variáveis dentro do CSS para facilitar na 
+estilização do HTML.
+
+Exemplo com paleta de cores:
+
+:root {
+        --cor0: #00001;
+        --cor1: #00002;
+        --cor2: #00003;
+        --cor3: #00004;
+}
+
+pronto, agora é possível usar o nome da váriavel nas estiliazações
+ao invés do código hexadecimal da cor.
+
+Isso também é possível fazer com fontes:
+
+:root {
+        --font-padrão: arial, verdana, helvetica, sans-serif;
+        --font-title: normal, helvetica.
+}
+
+
+========================== Aula 7 e 8 ============================
+
+
+Reponsividade
+
+AO invés de usar apenas valores fixos de largura. Podemos 
+usar valores máximos e mínimos de largura, para aumentar 
+sua responsividade.
+
+Largura máxima:
+        max-width: 800px;
+        O valor máximo de largura que o box/elemento irá
+        alcançar é 800px
+
+Largura mínima:
+        min-width: 320px;  (média de largura de um celular)
+        O valor mínimo de largura que o box/elemento
+        irá alcançar é 320px
+
+
+Responsividade em imagens:
+
+Adcione width: 100%.
+
+Opcional:
+        Usar o code:
+        <picture>
+                <source media>   Imagem cortada
+                <img>            Imagem completa.
+        </picture>
+
+Para centralizar imagens use o comando:
+        
+        display: block;
+
+        Esse comando é necessários, pois imagens não
+        são consideradas blocos.
+
+
+========================== Aula 9 ============================
+
+Efeitos adcionais:
+
+É possísel criar um pequeno efeito na classe hover do CSS:
+
+botão {
+        transition-duration: 0.5s;
+}
+
+// Isso fara que com que qualquer efeito que aconteça 
+no seletor Botão, demore 0.5 segundos para se concluir.
+
+botão:hover {
+        backgroundcolor: green; 
+}
+
+Isso fará com que o fundo do botão fique verde quando cursor
+do mouse passar por cima.
+
+
+========================== Aula 10 ============================
+
+Configurações Extras no CSS:
+
+Text-indent - cria um parágrafo.
+
+line-height - Altura da linha (espaçamento entre as linhas)
+
+color transparente - Cor transparente (ótimo para fades)
+
+
+========================== Aula 11 ============================
+
+Editando listas
+
+Lists-style-position  - Faz com que os bullets fiquem dentro da box
+lists-tyle-type       - troca o simbolo do bullet por um emote,
+                        basta informar o codigo do emote com 
+                        uma barra contrária. Ex:
+                                \2714 - SInal de check
+                                \00a0 - espaço.
+                        Obs: Isso não é compatível com todos os
+                        navegadores.
+
+
+========================== Aula 12 ============================
+
+
+Responsividade com vídeos.
+
+1 - Envolope o video em uma div
+
+2 - Coloque uma class = "video"
+
+3 - Coloquei um backgroundcolor para ajudar na visualização.
+
+5 - Na div coloque position: relative e um padding-bottom de 50%
+
+6 - No inframe coloque position: absolute para ter acesso a todas
+as medidas
+
+7 - Em top e left coloque 5% para iniciar os testes.
+
+8 - Width e Height coloque 90% para iniciar os testes.
+
+10 - Ajuste o paddint-bootom da div, para ajustas as barras
+pretas do vídeo.

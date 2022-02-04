@@ -27,6 +27,7 @@ header {
 }
 
 header > h1 {
+    font-weight: normal;
     font-family: guanabara2;
     text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.589);
 }
@@ -40,7 +41,13 @@ nav > a {
     text-decoration: none;
     font-weight: bold;
     color: white;
-    padding: 10px;
+    padding: 6px;
+    border-radius: 3px;
+    transition-duration: 0.5s;
+}
+
+nav > a:hover {
+    background-color: #84E1AD;
 }
 
 /* MAIN SELECTORS */
@@ -70,6 +77,10 @@ h4 {
     border-radius: 10px 10px 0 0;
 }
 
+p {
+    text-indent: 20px;
+}
+
 p > a {
     text-decoration: none;
     font-weight: bold;
@@ -81,15 +92,45 @@ a {
     color: black;
 }
 
+img {
+    display: block;
+    margin: auto;
+
+}
+
+.android {
+    font-weight: normal;
+    font-family: guanabara;
+    color: #255D38;
+    background-image: linear-gradient(to right, #84E1AD, transparent);
+}
+
+.links {
+    list-style-type: '\2714\00a0\00a0';
+    columns: 2;
+}
+
 .img {
     display: block;
     margin: auto;
+    width: 100%;
+}
+
+.youtube {
+    display: block;
+    margin: auto;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
 
 #video {
     background-color: #255D38;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding: 25px;
+    padding-bottom: 53.5%;
+    position: relative;
 }
 
 #infos {
@@ -97,17 +138,6 @@ a {
     border-radius: 0px 0px 10px 10px;
     padding: 5px 10px 4px 10px;
     margin-bottom: 20px;
-}
-
-#linksA {
-    text-align: left;
-    display: inline-block;
-    margin-right: 20px;
-}
-
-#linksB {
-    text-align: left;
-    display: inline-block;
 }
 
 /* FOOTER SELECTORS */
@@ -123,7 +153,11 @@ footer {
     width: 100%;
 }
 
-footer > div > a {
+footer a {
     color: rgb(113, 209, 142);
     text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
